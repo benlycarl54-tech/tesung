@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => ({
     port: 10000, // Render expects port 10000
     allowedHosts: [
       '.onrender.com', // Allow all Render subdomains
+      '.herokuapp.com', // Allow all Render subdomains
       'winelectricride.click' // Allow all Render subdomains
     ],
   },
