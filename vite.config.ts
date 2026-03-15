@@ -19,6 +19,7 @@ export default defineConfig(({ mode }) => ({
     allowedHosts: [
       '.onrender.com', // Allow all Render subdomains
       '.herokuapp.com', // Allow all Render subdomains
+      '.railway.com', // Allow all Render subdomains
       'winelectricride.click' // Allow all Render subdomains
     ],
   },
