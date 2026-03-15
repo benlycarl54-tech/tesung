@@ -17,7 +17,8 @@ export default defineConfig(({ mode }) => ({
     host: true, // Listen on all addresses
     port: 10000, // Render expects port 10000
     allowedHosts: [
-      '.onrender.com' // Allow all Render subdomains
+      '.onrender.com', // Allow all Render subdomains
+      'winelectricride.click' // Allow all Render subdomains
     ],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
